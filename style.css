@@ -1,3 +1,4 @@
+
 body{
     background-color:#1a4065;
     width: 100%;
@@ -13,7 +14,11 @@ h2{
 h3{
     text-align: center;
     font-size: 2rem;
-    color:#1a4065;
+    color:white;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
 }
 hr{
     margin-top: 4rem;
@@ -76,6 +81,16 @@ background-position: 60%;
     margin-top: -5rem;
     margin-left: 0.5rem;
 }
+.title button{
+    background: none;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+}
+.title a{
+    padding: 10px;
+    color: white;
+    font-size: 2rem;
+}
 .intro{
     display: flex;
     flex-flow: column;
@@ -119,13 +134,115 @@ background-position: 60%;
 .three .list{
     width: 30%;
     flex-grow: 1 ;
-    background-color: rgb(221, 221, 221);
+    background-color: white;
     margin-right: 1rem;
     padding: 2rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 .three .list p{
     text-align: center;
     padding: 2rem;
     font-size: 1rem;
+}
+.list h3{
+    color: #1a4065;
+}
+.box ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+}
+.box ul li{
+    background: white;
+    display:inline-block;
+    padding: 3px;
+    border: #1a4065 1px solid;
+    border-radius: 1rem;
+    margin-right: 3rem;
+    height: 5rem;
+    width: 20%;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 1.5rem;
+}
+.box ul li a{
+    color:#1a4065;
+}
+
+
+
+table{
+    margin: 3rem auto;
+    text-align: center;
+    padding: 3rem;
+    color: white;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+table td{
+    border: 1px solid white;
+    padding: 1rem;
+}
+#cheat h4{
+    color: white;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+#cheat .box p{
+    text-align: left;
+    
+    display: inline-block;
+    padding: 1rem;
+    margin: 0 auto;
+    color: white;
+    width: 40%;
+    margin-bottom: 0;
+}
+#cheat .box span{
+    font-weight: bold;
+    color:rgb(130, 187, 240);
+    font-size: 1.3rem;
+}
+#cheat .box pre{
+    border: 1px solid white;
+    color: #a1d0ff;
+    background: #000;
+    width: 60%;
+    padding: 2rem;
+}
+#git{
+    margin: 3rem;
+}
+#git p{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+}
+.more a{
+    color: #1a4065;
+    display: inline-block;
+    padding: 3px;
+}
+.input{
+    color: white;
+    margin: 2rem auto;
+    margin-bottom: 0;
+    text-align: center;
+    margin-right: 3rem;
+}
+footer{
+    width: 100%;
+    height: 8rem;
+    background-image: url(./bgfooter.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+footer p{
+    color: #1a4065;
+    position: relative;
+    top:5rem;
+    left:12rem;
 }
